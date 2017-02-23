@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53F9E101E5EC15E00433AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */; };
+		C53F9E121E5EC15E00433AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E111E5EC15E00433AC4 /* ViewController.swift */; };
+		C53F9E151E5EC15E00433AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E131E5EC15E00433AC4 /* Main.storyboard */; };
+		C53F9E171E5EC15E00433AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E161E5EC15E00433AC4 /* Assets.xcassets */; };
+		C53F9E1A1E5EC15E00433AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E181E5EC15E00433AC4 /* LaunchScreen.storyboard */; };
+		C53F9E251E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */; };
+		C53F9E311E5EC21500433AC4 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */; };
+		C53F9E341E5EC2EC00433AC4 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53F9E211E5EC15E00433AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53F9E041E5EC15E00433AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53F9E0B1E5EC15E00433AC4;
+			remoteInfo = DishwasherSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C53F9E0C1E5EC15E00433AC4 /* DishwasherSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishwasherSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C53F9E111E5EC15E00433AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C53F9E141E5EC15E00433AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53F9E161E5EC15E00433AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53F9E191E5EC15E00433AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53F9E1B1E5EC15E00433AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53F9E201E5EC15E00433AC4 /* DishwasherSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DishwasherSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishwasherSearchDownloadManagerTests.swift; sourceTree = "<group>"; };
+		C53F9E261E5EC15E00433AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53F9E091E5EC15E00433AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53F9E1D1E5EC15E00433AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53F9E031E5EC15E00433AC4 = {
+			isa = PBXGroup;
+			children = (
+				C53F9E0E1E5EC15E00433AC4 /* DishwasherSearch */,
+				C53F9E231E5EC15E00433AC4 /* DishwasherSearchTests */,
+				C53F9E0D1E5EC15E00433AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53F9E0D1E5EC15E00433AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E0C1E5EC15E00433AC4 /* DishwasherSearch.app */,
+				C53F9E201E5EC15E00433AC4 /* DishwasherSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53F9E0E1E5EC15E00433AC4 /* DishwasherSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E321E5EC28000433AC4 /* Services */,
+				C53F9E2F1E5EC1E200433AC4 /* Global Constant */,
+				C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */,
+				C53F9E111E5EC15E00433AC4 /* ViewController.swift */,
+				C53F9E131E5EC15E00433AC4 /* Main.storyboard */,
+				C53F9E161E5EC15E00433AC4 /* Assets.xcassets */,
+				C53F9E181E5EC15E00433AC4 /* LaunchScreen.storyboard */,
+				C53F9E1B1E5EC15E00433AC4 /* Info.plist */,
+			);
+			path = DishwasherSearch;
+			sourceTree = "<group>";
+		};
+		C53F9E231E5EC15E00433AC4 /* DishwasherSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */,
+				C53F9E261E5EC15E00433AC4 /* Info.plist */,
+			);
+			path = DishwasherSearchTests;
+			sourceTree = "<group>";
+		};
+		C53F9E2F1E5EC1E200433AC4 /* Global Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */,
+			);
+			name = "Global Constant";
+			sourceTree = "<group>";
+		};
+		C53F9E321E5EC28000433AC4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53F9E0B1E5EC15E00433AC4 /* DishwasherSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53F9E291E5EC15E00433AC4 /* Build configuration list for PBXNativeTarget "DishwasherSearch" */;
+			buildPhases = (
+				C53F9E081E5EC15E00433AC4 /* Sources */,
+				C53F9E091E5EC15E00433AC4 /* Frameworks */,
+				C53F9E0A1E5EC15E00433AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DishwasherSearch;
+			productName = DishwasherSearch;
+			productReference = C53F9E0C1E5EC15E00433AC4 /* DishwasherSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C53F9E1F1E5EC15E00433AC4 /* DishwasherSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53F9E2C1E5EC15E00433AC4 /* Build configuration list for PBXNativeTarget "DishwasherSearchTests" */;
+			buildPhases = (
+				C53F9E1C1E5EC15E00433AC4 /* Sources */,
+				C53F9E1D1E5EC15E00433AC4 /* Frameworks */,
+				C53F9E1E1E5EC15E00433AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53F9E221E5EC15E00433AC4 /* PBXTargetDependency */,
+			);
+			name = DishwasherSearchTests;
+			productName = DishwasherSearchTests;
+			productReference = C53F9E201E5EC15E00433AC4 /* DishwasherSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53F9E041E5EC15E00433AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Suman Chatterjee";
+				TargetAttributes = {
+					C53F9E0B1E5EC15E00433AC4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C53F9E1F1E5EC15E00433AC4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C53F9E0B1E5EC15E00433AC4;
+					};
+				};
+			};
+			buildConfigurationList = C53F9E071E5EC15E00433AC4 /* Build configuration list for PBXProject "DishwasherSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53F9E031E5EC15E00433AC4;
+			productRefGroup = C53F9E0D1E5EC15E00433AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53F9E0B1E5EC15E00433AC4 /* DishwasherSearch */,
+				C53F9E1F1E5EC15E00433AC4 /* DishwasherSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53F9E0A1E5EC15E00433AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F9E1A1E5EC15E00433AC4 /* LaunchScreen.storyboard in Resources */,
+				C53F9E171E5EC15E00433AC4 /* Assets.xcassets in Resources */,
+				C53F9E151E5EC15E00433AC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53F9E1E1E5EC15E00433AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53F9E081E5EC15E00433AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F9E121E5EC15E00433AC4 /* ViewController.swift in Sources */,
+				C53F9E311E5EC21500433AC4 /* GlobalConstants.swift in Sources */,
+				C53F9E101E5EC15E00433AC4 /* AppDelegate.swift in Sources */,
+				C53F9E341E5EC2EC00433AC4 /* DownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53F9E1C1E5EC15E00433AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F9E251E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53F9E221E5EC15E00433AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53F9E0B1E5EC15E00433AC4 /* DishwasherSearch */;
+			targetProxy = C53F9E211E5EC15E00433AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C53F9E131E5EC15E00433AC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53F9E141E5EC15E00433AC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53F9E181E5EC15E00433AC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53F9E191E5EC15E00433AC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53F9E271E5EC15E00433AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C53F9E281E5EC15E00433AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53F9E2A1E5EC15E00433AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DishwasherSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.DishwasherSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C53F9E2B1E5EC15E00433AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DishwasherSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.DishwasherSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C53F9E2D1E5EC15E00433AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DishwasherSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.DishwasherSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishwasherSearch.app/DishwasherSearch";
+			};
+			name = Debug;
+		};
+		C53F9E2E1E5EC15E00433AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DishwasherSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dreamapps.DishwasherSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DishwasherSearch.app/DishwasherSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53F9E071E5EC15E00433AC4 /* Build configuration list for PBXProject "DishwasherSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53F9E271E5EC15E00433AC4 /* Debug */,
+				C53F9E281E5EC15E00433AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53F9E291E5EC15E00433AC4 /* Build configuration list for PBXNativeTarget "DishwasherSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53F9E2A1E5EC15E00433AC4 /* Debug */,
+				C53F9E2B1E5EC15E00433AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C53F9E2C1E5EC15E00433AC4 /* Build configuration list for PBXNativeTarget "DishwasherSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53F9E2D1E5EC15E00433AC4 /* Debug */,
+				C53F9E2E1E5EC15E00433AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53F9E041E5EC15E00433AC4 /* Project object */;
+}
