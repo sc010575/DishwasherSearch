@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProductGridViewController.swift
 //  DishwasherSearch
 //
 //  Created by Suman Chatterjee on 23/02/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProductGridViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C53F9E101E5EC15E00433AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */; };
-		C53F9E121E5EC15E00433AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E111E5EC15E00433AC4 /* ViewController.swift */; };
+		C53F9E121E5EC15E00433AC4 /* ProductGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */; };
 		C53F9E151E5EC15E00433AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E131E5EC15E00433AC4 /* Main.storyboard */; };
 		C53F9E171E5EC15E00433AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E161E5EC15E00433AC4 /* Assets.xcassets */; };
 		C53F9E1A1E5EC15E00433AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E181E5EC15E00433AC4 /* LaunchScreen.storyboard */; };
 		C53F9E251E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */; };
 		C53F9E311E5EC21500433AC4 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */; };
 		C53F9E341E5EC2EC00433AC4 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */; };
+		C53F9E371E5EC55200433AC4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E361E5EC55200433AC4 /* Product.swift */; };
+		C53F9E3A1E5EC75800433AC4 /* ProductGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E391E5EC75800433AC4 /* ProductGridCollectionViewCell.swift */; };
+		C53F9E3C1E5ECC5F00433AC4 /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E3B1E5ECC5F00433AC4 /* StoryboardTests.swift */; };
+		C53F9E3D1E5ECD7300433AC4 /* ProductGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +34,7 @@
 /* Begin PBXFileReference section */
 		C53F9E0C1E5EC15E00433AC4 /* DishwasherSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishwasherSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C53F9E111E5EC15E00433AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridViewController.swift; sourceTree = "<group>"; };
 		C53F9E141E5EC15E00433AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C53F9E161E5EC15E00433AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C53F9E191E5EC15E00433AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		C53F9E261E5EC15E00433AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		C53F9E361E5EC55200433AC4 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C53F9E391E5EC75800433AC4 /* ProductGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		C53F9E3B1E5ECC5F00433AC4 /* StoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +88,11 @@
 		C53F9E0E1E5EC15E00433AC4 /* DishwasherSearch */ = {
 			isa = PBXGroup;
 			children = (
+				C53F9E381E5EC68F00433AC4 /* ViewControllers */,
+				C53F9E351E5EC53900433AC4 /* Model */,
 				C53F9E321E5EC28000433AC4 /* Services */,
 				C53F9E2F1E5EC1E200433AC4 /* Global Constant */,
 				C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */,
-				C53F9E111E5EC15E00433AC4 /* ViewController.swift */,
 				C53F9E131E5EC15E00433AC4 /* Main.storyboard */,
 				C53F9E161E5EC15E00433AC4 /* Assets.xcassets */,
 				C53F9E181E5EC15E00433AC4 /* LaunchScreen.storyboard */,
@@ -97,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */,
+				C53F9E3B1E5ECC5F00433AC4 /* StoryboardTests.swift */,
 				C53F9E261E5EC15E00433AC4 /* Info.plist */,
 			);
 			path = DishwasherSearchTests;
@@ -116,6 +125,23 @@
 				C53F9E331E5EC2EC00433AC4 /* DownloadManager.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		C53F9E351E5EC53900433AC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E361E5EC55200433AC4 /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C53F9E381E5EC68F00433AC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */,
+				C53F9E391E5EC75800433AC4 /* ProductGridCollectionViewCell.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53F9E121E5EC15E00433AC4 /* ViewController.swift in Sources */,
+				C53F9E121E5EC15E00433AC4 /* ProductGridViewController.swift in Sources */,
 				C53F9E311E5EC21500433AC4 /* GlobalConstants.swift in Sources */,
+				C53F9E3A1E5EC75800433AC4 /* ProductGridCollectionViewCell.swift in Sources */,
+				C53F9E371E5EC55200433AC4 /* Product.swift in Sources */,
 				C53F9E101E5EC15E00433AC4 /* AppDelegate.swift in Sources */,
 				C53F9E341E5EC2EC00433AC4 /* DownloadManager.swift in Sources */,
 			);
@@ -232,6 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53F9E3C1E5ECC5F00433AC4 /* StoryboardTests.swift in Sources */,
+				C53F9E3D1E5ECD7300433AC4 /* ProductGridViewController.swift in Sources */,
 				C53F9E251E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

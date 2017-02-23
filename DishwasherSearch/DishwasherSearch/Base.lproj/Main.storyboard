@@ -1,26 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p4f-DM-tSN">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="qCy-nv-da0">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <navigationController id="p4f-DM-tSN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Zw-hz-ZbB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="N9t-3x-Tjl" kind="relationship" relationship="rootViewController" id="9K3-VG-cYE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXZ-bo-QeK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-692" y="92"/>
+        </scene>
+        <!--Dishwashers Search-->
+        <scene sceneID="ksq-pp-Ket">
+            <objects>
+                <collectionViewController id="N9t-3x-Tjl" customClass="ProductGridViewController" customModule="DishwasherSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ar0-hE-WNs">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CWD-B6-5ns">
+                            <size key="itemSize" width="306" height="371"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductGridCollectionViewCellReuseId" id="UAA-KI-sVJ" customClass="ProductGridCollectionViewCell" customModule="DishwasherSearch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="306" height="371"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="306" height="371"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QE1-hO-1el">
+                                            <rect key="frame" x="18" y="18" width="270" height="214"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="214" id="Ljb-DO-EcT"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="752" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmq-wu-ZqB">
+                                            <rect key="frame" x="18" y="240" width="270" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAH-U8-ycM">
+                                            <rect key="frame" x="18" y="261" width="270" height="21"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="QE1-hO-1el" secondAttribute="trailing" constant="10" id="1Th-aB-C5z"/>
+                                    <constraint firstItem="nAH-U8-ycM" firstAttribute="top" secondItem="Xmq-wu-ZqB" secondAttribute="bottom" id="5Yo-11-wly"/>
+                                    <constraint firstItem="Xmq-wu-ZqB" firstAttribute="trailing" secondItem="QE1-hO-1el" secondAttribute="trailing" id="9rb-rC-jPY"/>
+                                    <constraint firstAttribute="topMargin" secondItem="QE1-hO-1el" secondAttribute="top" constant="-10" id="Gpk-vs-ono"/>
+                                    <constraint firstAttribute="leadingMargin" secondItem="Xmq-wu-ZqB" secondAttribute="leading" id="Mzc-BG-coV"/>
+                                    <constraint firstItem="Xmq-wu-ZqB" firstAttribute="width" secondItem="QE1-hO-1el" secondAttribute="width" id="Ncj-hR-DNN"/>
+                                    <constraint firstItem="nAH-U8-ycM" firstAttribute="trailing" secondItem="Xmq-wu-ZqB" secondAttribute="trailing" id="RtZ-yC-DX4"/>
+                                    <constraint firstItem="Xmq-wu-ZqB" firstAttribute="top" secondItem="QE1-hO-1el" secondAttribute="bottom" constant="8" id="SMo-oE-QS3"/>
+                                    <constraint firstItem="nAH-U8-ycM" firstAttribute="leading" secondItem="Xmq-wu-ZqB" secondAttribute="leading" id="SjC-Cz-MP5"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Xmq-wu-ZqB" secondAttribute="trailing" id="y6F-5c-snu"/>
+                                    <constraint firstAttribute="leadingMargin" secondItem="QE1-hO-1el" secondAttribute="leading" constant="-10" id="zj7-Og-knd"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Mzc-BG-coV"/>
+                                        <exclude reference="y6F-5c-snu"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="imageView" destination="QE1-hO-1el" id="aOQ-Lg-5L8"/>
+                                    <outlet property="priceLabel" destination="nAH-U8-ycM" id="Igj-Zv-u0h"/>
+                                    <outlet property="titleLabel" destination="Xmq-wu-ZqB" id="UD9-XG-A5L"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="N9t-3x-Tjl" id="bbZ-qJ-5cQ"/>
+                            <outlet property="delegate" destination="N9t-3x-Tjl" id="Vge-gc-JTf"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Dishwashers Search" id="DuH-We-XtS"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RD5-pO-Yor" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87.5" y="91.9921875"/>
         </scene>
     </scenes>
 </document>
