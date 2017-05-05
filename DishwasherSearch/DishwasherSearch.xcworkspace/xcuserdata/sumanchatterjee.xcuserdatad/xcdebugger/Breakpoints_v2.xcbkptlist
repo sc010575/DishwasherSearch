@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DishwasherSearchTests/DishwasherSearchDownloadManagerTests.swift"
+            timestampString = "515684118.476945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testDownloadManager()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DishwasherSearchTests.DishwasherSearchDownloadManagerTests.testDownloadManager () -&gt; ()"
+                  moduleName = "DishwasherSearchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumanchatterjee/DishwasherSearch/DishwasherSearch/DishwasherSearchTests/DishwasherSearchDownloadManagerTests.swift"
+                  timestampString = "515684149.447786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DishwasherSearchTests.DishwasherSearchDownloadManagerTests.(testDownloadManager () -&gt; ()).(closure #1)"
+                  moduleName = "DishwasherSearchTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumanchatterjee/DishwasherSearch/DishwasherSearch/DishwasherSearchTests/DishwasherSearchDownloadManagerTests.swift"
+                  timestampString = "515684149.450594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "187">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DishwasherSearchTests/DishwasherSearchDownloadManagerTests.swift"
+            timestampString = "515684162.104142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testDownloadManager()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -16,7 +16,7 @@ class StoryboardTests: XCTestCase {
     override func setUp() {
         super.setUp()
 
-        self.storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: type(of: self)))
+        self.storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
     }
     
     override func tearDown() {
@@ -35,7 +35,7 @@ class StoryboardTests: XCTestCase {
             return
         }
         
-        XCTAssertEqual(collectionVC.navigationItem.title, "Dishwashers")
+        XCTAssertEqual(collectionVC.navigationItem.title, "Dishwashers Search")
     }
     
 }

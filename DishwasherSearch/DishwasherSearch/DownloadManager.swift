@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import SwiftyJSON
+import Kingfisher
+
 
 class DownloadManager: NSObject {
     
@@ -59,4 +62,13 @@ class DownloadManager: NSObject {
         task.resume()
     }
     
+}
+
+extension DownloadManager {
+    
+    class func loadImage(for url:URL, cacheKey : String , inView imageView:ImageView) {
+        
+        let resource = ImageResource(downloadURL: url, cacheKey: cacheKey)
+        imageView.kf.setImage(with: resource)
+    }
 }
