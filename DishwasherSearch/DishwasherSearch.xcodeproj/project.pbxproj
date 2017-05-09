@@ -24,6 +24,9 @@
 		C503A0E91EC1E34C0068952E /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A0E61EC1E34C0068952E /* ProductTests.swift */; };
 		C503A0EB1EC1E39C0068952E /* JSONIntegrationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A0EA1EC1E39C0068952E /* JSONIntegrationTest.swift */; };
 		C503A0ED1EC1E7780068952E /* single-product.json in Resources */ = {isa = PBXBuildFile; fileRef = C503A0EC1EC1E7780068952E /* single-product.json */; };
+		C503A0EF1EC209420068952E /* ProductGridDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A0EE1EC209420068952E /* ProductGridDataSourceTests.swift */; };
+		C503A0F11EC20BFB0068952E /* ProductCollectionViewCellFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C503A0F01EC20BFB0068952E /* ProductCollectionViewCellFake.swift */; };
+		C503A0F21EC210EA0068952E /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E301E5EC21500433AC4 /* GlobalConstants.swift */; };
 		C53F9E101E5EC15E00433AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */; };
 		C53F9E121E5EC15E00433AC4 /* ProductGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */; };
 		C53F9E151E5EC15E00433AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53F9E131E5EC15E00433AC4 /* Main.storyboard */; };
@@ -63,6 +66,8 @@
 		C503A0E61EC1E34C0068952E /* ProductTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
 		C503A0EA1EC1E39C0068952E /* JSONIntegrationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONIntegrationTest.swift; sourceTree = "<group>"; };
 		C503A0EC1EC1E7780068952E /* single-product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "single-product.json"; sourceTree = "<group>"; };
+		C503A0EE1EC209420068952E /* ProductGridDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGridDataSourceTests.swift; sourceTree = "<group>"; };
+		C503A0F01EC20BFB0068952E /* ProductCollectionViewCellFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCellFake.swift; sourceTree = "<group>"; };
 		C53F9E0C1E5EC15E00433AC4 /* DishwasherSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishwasherSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53F9E0F1E5EC15E00433AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C53F9E111E5EC15E00433AC4 /* ProductGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridViewController.swift; sourceTree = "<group>"; };
@@ -170,14 +175,16 @@
 		C53F9E231E5EC15E00433AC4 /* DishwasherSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				C503A0EC1EC1E7780068952E /* single-product.json */,
-				C503A0EA1EC1E39C0068952E /* JSONIntegrationTest.swift */,
-				C503A0E41EC1E34C0068952E /* product-grid-response.json */,
+				C53F9E261E5EC15E00433AC4 /* Info.plist */,
 				C503A0E51EC1E34C0068952E /* product.json */,
+				C503A0EC1EC1E7780068952E /* single-product.json */,
+				C503A0E41EC1E34C0068952E /* product-grid-response.json */,
 				C503A0E61EC1E34C0068952E /* ProductTests.swift */,
+				C503A0EA1EC1E39C0068952E /* JSONIntegrationTest.swift */,
 				C53F9E241E5EC15E00433AC4 /* DishwasherSearchDownloadManagerTests.swift */,
 				C53F9E3B1E5ECC5F00433AC4 /* StoryboardTests.swift */,
-				C53F9E261E5EC15E00433AC4 /* Info.plist */,
+				C503A0EE1EC209420068952E /* ProductGridDataSourceTests.swift */,
+				C503A0F01EC20BFB0068952E /* ProductCollectionViewCellFake.swift */,
 			);
 			path = DishwasherSearchTests;
 			sourceTree = "<group>";
@@ -445,9 +452,12 @@
 				C503A0E11EC1DEF90068952E /* ReachabilityStatus.swift in Sources */,
 				C503A0E01EC1DEE30068952E /* ProductGridCollectionViewCell.swift in Sources */,
 				C503A0E91EC1E34C0068952E /* ProductTests.swift in Sources */,
+				C503A0F11EC20BFB0068952E /* ProductCollectionViewCellFake.swift in Sources */,
 				C503A0DD1EC1DE520068952E /* ProductGridDataSource.swift in Sources */,
+				C503A0F21EC210EA0068952E /* GlobalConstants.swift in Sources */,
 				C53F9E3C1E5ECC5F00433AC4 /* StoryboardTests.swift in Sources */,
 				C503A0DF1EC1DE5F0068952E /* ProductHandler.swift in Sources */,
+				C503A0EF1EC209420068952E /* ProductGridDataSourceTests.swift in Sources */,
 				C503A0DE1EC1DE5D0068952E /* Product.swift in Sources */,
 				C53F9E3D1E5ECD7300433AC4 /* ProductGridViewController.swift in Sources */,
 				C503A0EB1EC1E39C0068952E /* JSONIntegrationTest.swift in Sources */,

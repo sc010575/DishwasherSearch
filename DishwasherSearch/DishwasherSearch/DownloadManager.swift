@@ -75,6 +75,8 @@ class DownloadManager: NSObject {
     
 }
 
+// MARK: Loading image in background
+
 extension DownloadManager {
     
     class func loadImage(for url:URL, cacheKey : String , inView imageView:ImageView) {
