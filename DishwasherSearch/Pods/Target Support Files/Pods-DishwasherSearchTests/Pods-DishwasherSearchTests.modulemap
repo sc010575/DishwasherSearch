@@ -1,0 +1,6 @@
+framework module Pods_DishwasherSearchTests {
+  umbrella header "Pods-DishwasherSearchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

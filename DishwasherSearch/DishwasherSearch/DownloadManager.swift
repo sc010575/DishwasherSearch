@@ -13,7 +13,7 @@ import Kingfisher
 
 class DownloadManager: NSObject {
     
-    public typealias DownloadCompletionHandler = (_ response: [String: Any]?, _ cancelled: Bool) -> Void
+    public typealias DownloadCompletionHandler = (_ response: [Product]?, _ cancelled: Bool) -> Void
     
     
     static func downloadData(for productURL:String,completionhandler:@escaping DownloadCompletionHandler)  {
@@ -45,8 +45,16 @@ class DownloadManager: NSObject {
                     
                     if let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String: Any]
                     {
-                        
-                        completionhandler(json,true)
+                            do {
+                                let products = try ProductHandler.products(fromJSON: JSON(json))
+                                completionhandler(products,true)
+                                
+                            } catch {
+                                
+                                 completionhandler(nil,false)
+                                
+                            }
+
                     }
                     
                 } catch {
