@@ -47,14 +47,17 @@ class DownloadManager: NSObject {
                     {
                             do {
                                 let products = try ProductHandler.products(fromJSON: JSON(json))
-                                completionhandler(products,true)
+                                
+                                DispatchQueue.main.async {
+                                    
+                                    completionhandler(products,true)
+                                }
                                 
                             } catch {
                                 
                                  completionhandler(nil,false)
                                 
                             }
-
                     }
                     
                 } catch {

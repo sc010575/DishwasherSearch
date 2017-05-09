@@ -10,6 +10,8 @@ import UIKit
 
 class ProductGridViewController: UICollectionViewController {
    
+    @IBOutlet weak var activityIndecator: UIActivityIndicatorView!
+    
     fileprivate var datasource: ProductGridDataSource!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +21,14 @@ class ProductGridViewController: UICollectionViewController {
             self.errorWithMessage(message: "No Network Connection")
             return
         }
+        self.activityIndecator.startAnimating()
 
         DownloadManager.downloadData(for: ProductGridURL, completionhandler: { (response,cancled) in
             
             guard let products = response else {
                 return
             }
+            self.activityIndecator.stopAnimating()
             self.configureDataSource(withProducts: products)
             self.collectionView?.reloadData()
             self.navigationItem.title = "Dishwashers (\(products.count))"

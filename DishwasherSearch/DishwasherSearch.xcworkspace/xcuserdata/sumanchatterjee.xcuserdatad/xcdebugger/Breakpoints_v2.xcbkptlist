@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DishwasherSearch/DownloadManager.swift"
-            timestampString = "516021758.810267"
+            timestampString = "516029736.105108"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "downloadData(for:completionhandler:)"
             landmarkType = "7">
          </BreakpointContent>
